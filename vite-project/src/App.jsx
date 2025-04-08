@@ -1,7 +1,6 @@
 import { Cabecalho } from './Componentes';
 import { Conteudo } from './Componentes';
 import { Rodape } from './Componentes';
-import { inicial } from './pages';
 import './global.css';
 
 const App = () => {
@@ -10,7 +9,7 @@ const App = () => {
 
       <Cabecalho nomeUsuario="Sarah" />
       <Conteudo>
-        <inicial />
+       <h1>texto</h1>
       </Conteudo>
       <Rodape criador="Sarah"/>
     </>
