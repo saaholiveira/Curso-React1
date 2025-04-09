@@ -1,10 +1,10 @@
-import { Botao, CampoTexto } from '../../Componentes';
+import { Botao, CampoTexto } from '..';
 
-import style from './CriarTarefa.module.css';
+import style from './FormCriarTarefa.module.css';
 
 const FormCriarTarefa = () => {
     return (
-        <form className={style.FormCriarTrefa}>
+        <form className={style.FormCriarTarefa}>
             <CampoTexto />
             <Botao texto="+" />
         </form>

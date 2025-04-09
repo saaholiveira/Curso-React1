@@ -1,9 +1,9 @@
-import styles from './Conteudo.module.css'
+import style from './Conteudo.module.css'
 
 const Conteudo = (props) => {
     const {children} = props;
     return(
-        <div className={styles.Conteudo}> 
+        <div className={style.Conteudo}> 
             {children}
         </div>
     );
